@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins="*")
+@CrossOrigin(origins="https://bootstrap-fast-food.vercel.app/")
 public class UserLoginController
 {
     @Autowired
